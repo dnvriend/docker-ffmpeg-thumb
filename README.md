@@ -19,3 +19,11 @@ docker run -v /local/path:/tmp/workdir \
 
 ```
 After running the above command, the thumbnail image `output.png` will be created in the mounted `/local/path`.
+
+## Building and pusing to ECR
+To build and push the docker image to AWS ECR do the following:
+
+- docker-build.sh
+- docker-tag.sh
+- docker-push.sh
+
